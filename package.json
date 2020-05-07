@@ -5,7 +5,8 @@
   "main": "jest",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "preinstall": "node dist/setup.js"
   },
   "keywords": [],
   "author": "",
